@@ -1,0 +1,142 @@
+﻿{
+  "name": "CognosCH_Customer_1_Src",
+  "properties": {
+    "linkedServiceName": {
+      "referenceName": "ls_dlsgroupdwhtest001",
+      "type": "LinkedServiceReference"
+    },
+    "annotations": [],
+    "type": "DelimitedText",
+    "typeProperties": {
+      "location": {
+        "type": "AzureBlobStorageLocation",
+        "folderPath": "CognosCH",
+        "container": "incoming"
+      },
+      "columnDelimiter": "\t",
+      "rowDelimiter": "\n",
+      "encodingName": "UTF-16",
+      "escapeChar": "\"",
+      "firstRowAsHeader": true,
+      "quoteChar": "\""
+    },
+    "schema": [
+      {
+        "name": "CustomerBK",
+        "type": "String"
+      },
+      {
+        "name": "AC",
+        "type": "String"
+      },
+      {
+        "name": "ImportSource",
+        "type": "String"
+      },
+      {
+        "name": "CurrentERPNumber",
+        "type": "String"
+      },
+      {
+        "name": "DWHSkey",
+        "type": "String"
+      },
+      {
+        "name": "CustomerName",
+        "type": "String"
+      },
+      {
+        "name": "Status",
+        "type": "String"
+      },
+      {
+        "name": "Channel",
+        "type": "String"
+      },
+      {
+        "name": "SICcode",
+        "type": "String"
+      },
+      {
+        "name": "AccountManager",
+        "type": "String"
+      },
+      {
+        "name": "AccountManagerCode",
+        "type": "String"
+      },
+      {
+        "name": "IndustrySegmentCode",
+        "type": "String"
+      },
+      {
+        "name": "BillingAddressStreet",
+        "type": "String"
+      },
+      {
+        "name": "BillingAddressCity",
+        "type": "String"
+      },
+      {
+        "name": "BillingAddressState",
+        "type": "String"
+      },
+      {
+        "name": "BillingAddressPostalcode",
+        "type": "String"
+      },
+      {
+        "name": "BillingAddressCountry",
+        "type": "String"
+      },
+      {
+        "name": "MainPhoneNumber",
+        "type": "String"
+      },
+      {
+        "name": "AlternatePhoneNumber",
+        "type": "String"
+      },
+      {
+        "name": "FaxNumber",
+        "type": "String"
+      },
+      {
+        "name": "EmailAddress",
+        "type": "String"
+      },
+      {
+        "name": "Website",
+        "type": "String"
+      },
+      {
+        "name": "Twitter",
+        "type": "String"
+      },
+      {
+        "name": "Facebook",
+        "type": "String"
+      },
+      {
+        "name": "CurrencyCode",
+        "type": "String"
+      },
+      {
+        "name": "VATNumber",
+        "type": "String"
+      },
+      {
+        "name": "EstimatedAnnualRevenue",
+        "type": "String"
+      },
+      {
+        "name": "NbrofEmployees",
+        "type": "String"
+      },
+      {
+        "name": "BusinessDescSugarCRM",
+        "type": "String"
+      }
+    ]
+  }
+}
